@@ -1,13 +1,31 @@
-header{
-  font-family: cursive;
+html{
+  height:auto;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  background-repeat: no-repeat;
+}
+
+body{
+  padding:5% 10% 0% 10%;
+}
+
+h1{
+  font-family: 'Grand Hotel', cursive;
   text-align: center;
-  font-size: 36px;
+  font-size: 44px;
+  color: black;
+}
+
+h2{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
   color: white;
 }
-html{
-  height:100%;
-  background-image:linear-gradient(#0017FF, #0078FF, #B3FFFF );
-  background-repeat: no-repeat;
+
+.Terms{
+  font-size: 12px;
+  font-family: sans-serif;
+  color:white;
 }
 
 .content {
@@ -16,9 +34,9 @@ html{
 .left{
   float:left;
   display:block;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-right: 2.5%;
-  height: 450px;
+  padding-top: 10%
 }
 
 .right{
@@ -26,7 +44,62 @@ html{
   display: block;
   margin: auto;
   margin-right: 20%;
-  border: 1px solid black;
-  height: 450px;
+  border: 2px solid black;
+  height: auto;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+}
 
+input{
+  font-family: sans-serif;
+  display: block;
+  margin:auto;
+  padding: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+.text{
+  width: 270px;
+}
+
+.button{
+  background-color: #417198;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.seperator{
+    font-family: sans-serif;
+}
+
+ul{
+  list-style-type:none;
+  margin-left:40px
+  padding:0;
+  overflow:hidden;
+  display:inline-block;
+  text-align: center;
+}
+li{
+  float:left;
+  padding: 14px 14px 0 14px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.footer{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.appstores{
+  width: 400px;
+  margin-left: 34%;
 }
